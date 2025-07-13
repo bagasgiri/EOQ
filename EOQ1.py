@@ -18,7 +18,7 @@ Gunakan aplikasi ini untuk menghitung **EOQ**, **jumlah pemesanan per tahun**, d
 
 st.header("📋 Input Data")
 # Input
-D = st.number_input("Permintaan tahunan (unit)", value=3500)
+D = st.number_input("Permintaan tahunan (unit)", value=3600)
 S = st.number_input("Biaya pemesanan per kali pesan (Rp)", value=50000)
 H = st.number_input("Biaya penyimpanan per unit per tahun (Rp)", value=2000)
 
